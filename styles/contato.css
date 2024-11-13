@@ -1,0 +1,91 @@
+* {
+  background-color: #a84426;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  background-color: #a84426;
+  z-index: 999;
+}
+
+.cabeçalho-link {
+  display: flex;
+  gap: 3rem;
+  font-weight: 300;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.cabeçalho-link a {
+  color: #fff;
+  font-size: 15px;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+.imagem-container {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.imagem-background {
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo {
+  margin-left: 100px;
+}
+
+.textocontato {
+  margin-left: 100px;
+}
+
