@@ -105,3 +105,26 @@ header {
   z-index: 1;
   overflow: hidden;
 }
+
+.trabalhos{
+  width: 90%;
+  display: block;
+  gap: 30px;
+}
+
+.iframe{
+  background-color: #853400;
+  margin-left: 25%;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.iframe2{
+  background-color: #853400;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

@@ -77,12 +77,6 @@ header {
   color: rgb(255, 255, 255);
 }
 
-.trabalhos{
-  width: 90%;
-  margin-left: 23%;
-  display: block;
-}
-
 .trimestre {
   justify-content: center;
     align-items: center;
@@ -110,6 +104,16 @@ header {
   overflow: hidden;
 }
 
+.trabalhos{
+  width: 90%;
+  display: block;
+  gap: 30px;
+}
+
 .iframe{
-  width: 60%;
+  background-color: #853400;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
