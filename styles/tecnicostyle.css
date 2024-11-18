@@ -58,6 +58,8 @@ header {
 .implant,
 .model,
 .jackson,
+.pda,
+.tds,
 .senna {
     text-align: center;
     margin-bottom: 50px;
@@ -117,3 +119,4 @@ header {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
